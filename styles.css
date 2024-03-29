@@ -1,0 +1,72 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Change background to white */
+    color: #212121; /* Adjust text color */
+}
+
+/* Header styles */
+header {
+    background-color: #2874f0; /* Flipkart blue */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 24px; /* Increase font size */
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px; /* Adjust font size */
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+/* Section styles */
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #f0f0f0; /* Add border for separation */
+    border-radius: 4px; /* Add border radius */
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #000; /* Adjust heading color */
+}
+
+section p {
+    font-size: 14px; /* Decrease font size */
+    line-height: 1.6;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
